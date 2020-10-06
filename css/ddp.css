@@ -1,0 +1,20 @@
+/* 1er bleu : #0431df ; 
+	2e bleu : #126df1;
+	3e bleu : #0887fb;
+
+*/
+.menu main{
+	background-color: var(--blancDdp);
+	font-family: "Dancing Script";
+}
+
+h1{
+
+width: fit-content;
+margin: auto;
+color: var(--bleuDdp)
+}
+
+h2 img:nth-of-type(2) {
+    transform: scaleX(-1);
+}

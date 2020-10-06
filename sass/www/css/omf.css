@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Croissant+One|Dancing+Script|Kaushan+Script|PT+Serif|Pangolin|Roboto:700&display=swap");
+/*
+font-family: "Pangolin";
+font-family: "Dancing Script";
+font-family: "PT Serif";
+font-family: "Croissant One";
+font-family: "Kaushan Script";
+*/
+
+
+
+/*      
+  /\/\   __ _(_)_ __  
+ /    \ / _` | | '_ \ 
+/ /\/\ \ (_| | | | | |
+\/    \/\__,_|_|_| |_|
+*/
+
+main {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+
+
+/*
+   _        _   _      _      
+  /_\  _ __| |_(_) ___| | ___ 
+ //_\\| '__| __| |/ __| |/ _ \
+/  _  \ |  | |_| | (__| |  __/
+\_/ \_/_|   \__|_|\___|_|\___|
+
+*/
+
+article{
+  width: fit-content;
+  text-align: center;
+}
+/*                    
+  /\/\   ___ _ __  _   _ 
+ /    \ / _ \ '_ \| | | |
+/ /\/\ \  __/ | | | |_| |
+\/    \/\___|_| |_|\__,_|
+                         
+*/
+
+
+.zoom {
+  /* padding: 50px; */
+  /* background-color: white; */
+  transition: transform .2s; /* Animation */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 1s;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+.carte {
+    width: 312px;
+    height: 400px;
+    overflow: hidden;
+    margin: 1rem;
+    border: 1px solid;
+    /* align-items: stretch; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:none;
+}
+/*
+   _       _     _      
+  /_\  ___(_) __| | ___ 
+ //_\\/ __| |/ _` |/ _ \
+/  _  \__ \ | (_| |  __/
+\_/ \_/___/_|\__,_|\___|
+*/
+
+aside {
+    background: var(--vert);
+    font-size: 30px;
+    color: var(--jaune);
+    margin: 4rem auto;
+    height: 10%;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 7px;
+    letter-spacing: .3rem;
+    width: fit-content;
+    padding: 0.5rem;
+}
+
+aside span {
+  /* transition-property: opacity;
+  transition-duration: 4s; */
+  animation-duration: 4s;
+  animation-name: fade;
+  animation-iteration-count: infinite;
+  font-size: 2rem;
+}
+
+aside span:nth-of-type(2) {
+  animation-delay: 1s;
+}
+
+aside span:nth-of-type(3) {
+  animation-delay: 2s;
+}
+
+
+@keyframes fade{
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+div {
+  box-shadow: 1px 1px 12px #555;
+}

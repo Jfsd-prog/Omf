@@ -1,0 +1,56 @@
+.menu h1, .menu h2 {
+    text-align: center;
+}
+
+.menu h2:before, .menu h2:after {
+  /* content:"----------"; */
+  letter-spacing: -2px;
+  width:fit-content;
+  margin: 0 1rem;
+}
+
+.menu li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
+}
+
+.menu main{
+  width: 70%;
+  margin: auto;
+  padding: 1rem;
+}
+
+
+h2 img {
+    width: 30%;
+}
+
+h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+/*
+.menu2 h2:before{
+    background: -webkit-linear-gradient(left, var(--degradeMenu2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu2 h2:after{
+    background: -webkit-linear-gradient(right, var(--degradeMenu2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}*/

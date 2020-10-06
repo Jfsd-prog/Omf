@@ -1,0 +1,63 @@
+
+/*
+.menu2 h2:before{
+    background: -webkit-linear-gradient(left, var(--degradeMenu2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu2 h2:after{
+    background: -webkit-linear-gradient(right, var(--degradeMenu2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} 
+
+
+.degrade_clf{
+  background: -webkit-linear-gradient( 45deg, var(--degradeClf));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Croissant One";
+
+ 
+}
+
+h3 {
+    text-align: center;
+}
+
+main h3:before, h1:before {
+	content: "\f001";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+}
+
+h1:before {
+	display:block;
+}
+*/
+
+.menu main{
+	background-color: var(--blancClf);
+	font-family: "Croissant One";
+}
+
+h1 {
+	background: -webkit-linear-gradient( 45deg, var(--degradeClf));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /*font-family: "Croissant One";*/
+
+ 
+}
+
+.section1 {
+    color: var(--clf1);
+}
+
+.section2{
+	color :var(--clf2);
+}
+.section3{
+	color:var(--clf3);
+}

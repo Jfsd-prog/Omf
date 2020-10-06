@@ -1,0 +1,33 @@
+
+.menu1 main{
+    background-color: var(--saumon);
+    font-family: "Kaushan Script";   
+}
+.menu1 h2{
+    font-family: "Kaushan Script";
+}
+.menu1 h2:before, h3:before, h1:before{
+  background: -webkit-linear-gradient(left, var(--degradeLne));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu1 h2:after{
+    background: -webkit-linear-gradient(right, var(--degradeLne));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3 {
+    text-align: center;
+}
+
+main h3:before, h1:before {
+	content: "\f001";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+}
+
+h1:before {
+	display:block;
+}

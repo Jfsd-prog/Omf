@@ -1,0 +1,50 @@
+.menu h1, .menu h2 {
+    text-align: center;
+}
+
+.menu h2:before, .menu h2:after {
+  /* content:"----------"; */
+  letter-spacing: -2px;
+  width:fit-content;
+  margin: 0 1rem;
+}
+
+.menu li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
+}
+
+.menu main{
+  width: 70%;
+  margin: auto;
+  padding: 1rem;
+}
+
+
+h2 img {
+    width: 30%;
+    display: none;
+}
+
+h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  h2 img {
+    display: block;
+  }
+  }

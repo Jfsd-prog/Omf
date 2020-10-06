@@ -1,0 +1,19 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "makeCSSfromSCSS" : "node ./node_modules/gulp/bin/gulp.js style",
+    "dev" : "node ./node_modules/gulp/bin/gulp.js watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.1.0"
+  }
+}

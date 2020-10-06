@@ -1,0 +1,23 @@
+
+/*
+1er vert : #3D9339;
+2e vert : #BFFF7E);
+*/
+
+.menu main{
+	background-color: var(--blancPdg);
+	font-family: 'Kalam',cursive;
+}
+
+h1 {
+	 
+	 background: -webkit-linear-gradient(left,#3D9339, #BFFF7E);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: 'Kalam',cursive;
+	width: fit-content;
+	margin: auto;
+}
+h2 img:nth-of-type(2) {
+    transform: scaleX(-1);
+    }
