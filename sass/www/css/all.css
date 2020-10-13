@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Croissant+One|Dancing+Script|Kaushan+Script|PT+Serif|Pangolin|Roboto:700&display=swap");
 
 a {
     color: var(--jaune);
@@ -112,6 +113,7 @@ body {
     font-size: medium;
     background-color: white;
     font-size: 1.5em;
+    padding-bottom: 1.5em;
 }
 
 

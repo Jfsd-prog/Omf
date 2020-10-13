@@ -43,7 +43,7 @@ h1:before {
 	margin: 0;
   list-style-type: none;
   margin : auto;
-  }
+ }
 
 h1 {
 	background: -webkit-linear-gradient( 45deg, var(--degradeClf));
@@ -65,3 +65,16 @@ h1 {
 .section3{
 	color:#6E4CCC;
 }
+
+h2 span{
+    text-decoration: none;
+    text-align: justify;
+    background: linear-gradient(to top, #6e4ccc 0%, #c67411 10%,transparent 10.01%) no-repeat left bottom / 0% 100%;
+    transition: background-size .5s;
+  }
+
+  h2 span:hover {
+    background-size: 100% 100%;
+  }
+
+  

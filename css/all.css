@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Croissant+One|Dancing+Script|Kaushan+Script|PT+Serif|Pangolin|Roboto:700&display=swap");
 
 a {
     color: var(--jaune);
@@ -32,8 +33,6 @@ a {
     --degradePdg :#3D9339 ,#BFFF7E; 
     --blancPdg :#fdfffd;
 }
-
-
 
 .lne {
   background-color:var(--saumon);
@@ -113,7 +112,8 @@ body {
     font-family: sans-serif;
     font-size: medium;
     background-color: white;
-    font-size: 1.2em;
+    font-size: 1.5em;
+    padding-bottom: 1.5em;
 }
 
 
@@ -137,9 +137,24 @@ footer {
     justify-content: space-between;
     align-items: center;
     font-family: sans-serif;
-    letter-spacing: .1rem;
+    letter-spacing: .3rem;
+    font-size: 0.65em;
   }
 
   footer a{
     padding:2rem;
   }
+    footer a:hover{
+    animation-name :shake;
+    animation-duration: 100ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  @keyframes shake {
+    0%{margin-left: 0; margin-right:0}
+    33%{margin-left: 10px; margin-right:0}
+    66%{margin-left: 0; margin-right:10px}
+    100% {margin-left: 0; margin-right:0}
+
+  }
+  

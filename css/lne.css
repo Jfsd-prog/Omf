@@ -31,3 +31,15 @@ main h3:before, h1:before {
 h1:before {
 	display:block;
 }
+
+h2 span{
+  text-decoration: none;
+  text-align: justify;
+  background: linear-gradient(to top, #3c1218 0%, #3c1218 10%, transparent 10.01%) no-repeat left bottom / 0% 100%;
+  transition: background-size .5s;
+}
+
+h2 span:hover {
+  background-size: 100% 100%;
+  
+}
